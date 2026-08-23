@@ -362,7 +362,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2361.7, y: 1100.1}
+  m_SizeDelta: {x: 3139.1, y: 1780}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81877770
 MonoBehaviour:
@@ -494,8 +494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 680, y: 70}
-  m_SizeDelta: {x: 800, y: 750}
+  m_AnchoredPosition: {x: 600, y: 70}
+  m_SizeDelta: {x: 650, y: 750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94616391
 MonoBehaviour:
@@ -784,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664.2, y: -193}
+  m_AnchoredPosition: {x: -550, y: -193}
   m_SizeDelta: {x: 395.5, y: 91.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123848169
@@ -1241,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 680.17993, y: -360.96002}
+  m_AnchoredPosition: {x: 474.5, y: -360.96002}
   m_SizeDelta: {x: 699.1, y: 158.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &250407511
@@ -1380,7 +1380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 664, y: -193}
+  m_AnchoredPosition: {x: 550, y: -193}
   m_SizeDelta: {x: 378.3702, y: 145.2509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259396715
@@ -2455,7 +2455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 664, y: 107}
+  m_AnchoredPosition: {x: 550, y: 107}
   m_SizeDelta: {x: 378.3702, y: 145.2509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &438998223
@@ -2880,7 +2880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &595251954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3205,7 +3205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664.2, y: 107}
+  m_AnchoredPosition: {x: -550, y: 107}
   m_SizeDelta: {x: 350, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707503520
@@ -4240,7 +4240,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tap the Right area of the Screen to go Right \n\n>>>"
+  m_text: 'Tap the Right area \nof the Screen to go Right
+
+
+    >>>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4975,7 +4978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 651, y: 392.08002}
+  m_AnchoredPosition: {x: 474.5, y: 392.08002}
   m_SizeDelta: {x: 757.46, y: 165.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032388680
@@ -5247,8 +5250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -680, y: 70}
-  m_SizeDelta: {x: 800, y: 750}
+  m_AnchoredPosition: {x: -600, y: 70}
+  m_SizeDelta: {x: 650, y: 750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1039340055
 MonoBehaviour:
@@ -5378,7 +5381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664, y: -96.8}
+  m_AnchoredPosition: {x: -550, y: -96.8}
   m_SizeDelta: {x: 432.3, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044767336
@@ -5649,7 +5652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tap the Left area of the Screen to go Left
+  m_text: 'Tap the Left area \nof the Screen to go Left
 
 
     <<<'
@@ -5901,7 +5904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -925.8, y: 400.03}
+  m_AnchoredPosition: {x: -770, y: 362.9}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171016250
@@ -6267,7 +6270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1469599226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6576,7 +6579,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -867, y: -400}
+  m_AnchoredPosition: {x: -750.1, y: -400}
   m_SizeDelta: {x: 200, y: 80.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1558934664
@@ -7023,7 +7026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: port Address
+  m_text: Port Address
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7119,7 +7122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -769, y: 0}
+  m_AnchoredPosition: {x: -666.7, y: 0}
   m_SizeDelta: {x: 512.86, y: 102.0586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1747544232
