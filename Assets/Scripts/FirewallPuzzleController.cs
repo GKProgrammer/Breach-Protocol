@@ -39,6 +39,8 @@ public class FirewallPuzzleController : MonoBehaviour
     {
         if (!puzzleActive || isHacked) return;
 
+        if (Time.timeScale == 0f) return;
+
         countdownTimer -= Time.unscaledDeltaTime;
         GameManager.Instance.UpdateTimerText("Timeout in\n", countdownTimer);
         

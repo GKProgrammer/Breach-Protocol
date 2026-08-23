@@ -150,7 +150,7 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.GameOver:
-                Time.timeScale = 1f;
+                Time.timeScale = 0f;
                 gameOverCanvas.SetActive(true);
                 playerMovement.enabled = false;
                 if (trackManager != null) trackManager.enabled = false;
