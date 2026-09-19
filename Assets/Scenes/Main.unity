@@ -1241,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 561.8, y: -360.96002}
+  m_AnchoredPosition: {x: 517.6, y: -360.96002}
   m_SizeDelta: {x: 699.1, y: 158.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &250407511
@@ -3524,7 +3524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tap anywhere to exit this Screen
+  m_text: Click anywhere to exit this Screen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
@@ -4117,7 +4117,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tap the Right area \nof the Screen to go Right
+  m_text: 'Press D or \nRight arrow key\n to go Right
 
 
     >>>'
@@ -4431,7 +4431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &978473177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4855,7 +4855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 561.8, y: 366.8}
+  m_AnchoredPosition: {x: 498.7, y: 366.8}
   m_SizeDelta: {x: 757.46, y: 165.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032388680
@@ -5493,7 +5493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tap the Left area \nof the Screen to go Left
+  m_text: 'Press A or \nLeft arrow key\n to go Left
 
 
     <<<'
@@ -5745,7 +5745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -836.1, y: 362.9}
+  m_AnchoredPosition: {x: -806.5, y: 362.9}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171016250
@@ -6036,7 +6036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1469599226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6345,7 +6345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -836.1, y: -400}
+  m_AnchoredPosition: {x: -777.6, y: -400}
   m_SizeDelta: {x: 200, y: 80.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1558934664
@@ -8019,7 +8019,7 @@ MonoBehaviour:
 
     |
 
-    Swipe Up or Down anywhere to Switch Gravity
+    Press Space to Switch Gravity
 
     |
 
