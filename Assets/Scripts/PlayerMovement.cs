@@ -41,6 +41,11 @@ public class PlayerMovement : MonoBehaviour
     private float lastFlipTime = -10f;
     private Rigidbody rb;
 
+    [Header("Fail-Safe Boundaries")]
+    public float maxOutOfBoundsY = 8f;  // If Y goes above this, they clipped through the ceiling
+    public float minOutOfBoundsY = -3f; // If Y goes below this, they clipped through the floor
+    public float safeCeilingY = 5.0f;   // The exact Y position to snap them back to on the ceiling
+    public float safeFloorY = 0.5f;     // The exact Y position to snap them back to on the floor
     void Awake()
     {
         currentYRotation = baseYRotation;
@@ -169,6 +174,20 @@ public class PlayerMovement : MonoBehaviour
         currentXRotation = Mathf.LerpAngle(currentXRotation, targetXRotation, flipRotationSpeed * Time.deltaTime);
         
         transform.rotation = Quaternion.Euler(currentXRotation, currentYRotation, 0f);
+
+        // 5. --- OUT OF BOUNDS FAIL-SAFE ---
+        if (transform.position.y > maxOutOfBoundsY)
+        {
+            // Clipped through the ceiling! Snap back and kill infinite upward velocity.
+            transform.position = new Vector3(transform.position.x, safeCeilingY, transform.position.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        }
+        else if (transform.position.y < minOutOfBoundsY)
+        {
+            // Clipped through the floor! Snap back and kill infinite downward velocity.
+            transform.position = new Vector3(transform.position.x, safeFloorY, transform.position.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        }
     }
     
     public void PrepareForHacking()
