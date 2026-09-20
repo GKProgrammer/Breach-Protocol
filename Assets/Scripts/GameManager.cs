@@ -35,11 +35,10 @@ public class GameManager : MonoBehaviour
     public int highestFirewallsHacked = 0;
 
     [Header("Audio Sources & Clips")]
-    public AudioSource sfxSource;       // Drag your AudioSource component here
-    public AudioClip buttonClickClip;
-    public AudioClip gravityFlipClip;
-    public AudioClip explosionClip;
+    public AudioSource sfxSource;
     public AudioClip puzzleWinClip;
+    public AudioClip deathClip;
+
     [Header("BGM & Audio Effects")]
     public AudioSource bgmSource; // The AudioSource playing your music
     public AudioLowPassFilter bgmLowPassFilter; // The component that muffles the sound
@@ -150,6 +149,7 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.GameOver:
+                PlaySound(deathClip);
                 Time.timeScale = 0f;
                 gameOverCanvas.SetActive(true);
                 playerMovement.enabled = false;
@@ -244,6 +244,7 @@ public class GameManager : MonoBehaviour
     }
     public void RegisterFirewallHacked()
     {
+        PlaySound(puzzleWinClip);
         firewallsHacked++;
     }
     public void PlaySound(AudioClip clip)

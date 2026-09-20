@@ -46,6 +46,9 @@ public class PlayerMovement : MonoBehaviour
     public float minOutOfBoundsY = -3f; // If Y goes below this, they clipped through the floor
     public float safeCeilingY = 5.0f;   // The exact Y position to snap them back to on the ceiling
     public float safeFloorY = 0.5f;     // The exact Y position to snap them back to on the floor
+
+    [Header("Gravity Flip SFX")]
+    public AudioClip gravityFlipSFX; // Assign this in the Inspector
     void Awake()
     {
         currentYRotation = baseYRotation;
@@ -160,6 +163,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (shouldExecuteFlip)
             {
+                if (gravityFlipSFX != null) GameManager.Instance.PlaySound(gravityFlipSFX);
                 lastFlipTime = Time.time;
                 float gravityDirection = isUpsideDown ? 1f : -1f;
                 Physics.gravity = new Vector3(0, gravityForce * gravityDirection, 0);
